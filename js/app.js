@@ -115,11 +115,6 @@ input.addEventListener('keyup', function() {
     }
   }
 
-  // displaying top keywords only if there is a word in the text area
-  if (words) {
-    keywordsDiv.style.display = "block";
-  } else {
-    keywordsDiv.style.display = "none";
-  }
+
 
 });
